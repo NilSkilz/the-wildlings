@@ -1,75 +1,20 @@
 import Header from "./Components/Header";
-import Introduction from "./Components/Introduction";
-import Activities from "./Components/Activities";
-import TopImage from "./Components/TopImage";
-import MiddleImage from "./Components/MiddleImage";
+import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import { Col, Row, Container } from "reactstrap";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <TopImage />
-      <img
-        style={{
-          width: "100%",
-          position: "relative",
-          zIndex: 1,
-          marginTop: "-30px",
-          marginBottom: "60px",
-        }}
-        src="images/bg-band-home-3.png"
-      />
-      <Introduction />
-      <img
-        style={{ width: "100%", position: "relative", zIndex: 1 }}
-        src="images/bg-header-bottom-2.png"
-      />
-
-      <div
-        style={{
-          width: "100%",
-          backgroundColor: "#efeeea",
-          marginTop: "-30px",
-        }}
-      >
-        <Activities />
-      </div>
-      <div
-        style={{
-          width: "100%",
-          marginTop: "-30px",
-        }}
-      >
-        <img
-          style={{
-            width: "100%",
-            position: "relative",
-            zIndex: 1,
-          }}
-          src="images/bg-gray-top-home-3.png"
-        />
-      </div>
-
-      <MiddleImage />
-
-      <div
-        style={{
-          width: "100%",
-          marginTop: "-40px",
-        }}
-      >
-        <img
-          style={{
-            width: "100%",
-            position: "relative",
-            zIndex: 1,
-          }}
-          src="images/bg-heading.png"
-        />
-      </div>
+    <div className="App" style={{ height: "100%" }}>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

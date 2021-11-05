@@ -35,15 +35,23 @@ export default function MiddleImage() {
         >
           We can't wait to see you!
         </div>
-        <div
+        <a
+          href=""
           style={{
             fontFamily: "Permanent Marker",
             color: "rgb(241, 198, 44)",
             fontSize: "22px",
+            backgroundColor: "#f2682a",
+            borderRadius: "25px",
+            width: "200px",
+            height: "50px",
+            color: "#fff",
+            paddingTop: "7px",
+            textDecoration: "none",
           }}
         >
-          Book Now
-        </div>
+          Get In Touch
+        </a>
       </div>
     </Parallax>
   );

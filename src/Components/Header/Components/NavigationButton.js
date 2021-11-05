@@ -1,6 +1,12 @@
-export default function NavigationButton({ name, isSelected }) {
+import { Link, useLocation } from "react-router-dom";
+
+export default function NavigationButton({ name, link }) {
+  const { pathname } = useLocation();
+
+  const isSelected = pathname === link;
   return (
-    <button
+    <Link
+      to={link}
       style={{
         backgroundColor: isSelected ? "#f2682a" : "#fff",
         borderRadius: "18px",
@@ -13,9 +19,10 @@ export default function NavigationButton({ name, isSelected }) {
         color: isSelected ? "#fff" : "#000",
         fontFamily: "candal",
         fontSize: "14px",
+        textDecoration: "none",
       }}
     >
       {name}
-    </button>
+    </Link>
   );
 }

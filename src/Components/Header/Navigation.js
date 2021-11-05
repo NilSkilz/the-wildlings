@@ -4,10 +4,10 @@ import NavigationButton from "./Components/NavigationButton";
 export default function Navigation() {
   return (
     <div style={{ display: "flex", alignItems: "center", height: "100%" }}>
-      <NavigationButton name="HOME" isSelected />
-      <NavigationButton name="ACTIVITIES" />
-      <NavigationButton name="ABOUT" />
-      <NavigationButton name="CONTACT" />
+      <NavigationButton name="HOME" link="/" />
+      <NavigationButton name="ACTIVITIES" link="/activities" />
+      <NavigationButton name="ABOUT" link="/about" />
+      <NavigationButton name="CONTACT" link="/contact" />
     </div>
   );
 }
