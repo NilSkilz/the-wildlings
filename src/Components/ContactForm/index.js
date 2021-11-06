@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Title from "../Text/Title";
 import SubTitle from "../Text/Subtitle";
 import { Row, Col, Container } from "reactstrap";
-
+import { notification } from "antd";
 import emailjs, { init } from "emailjs-com";
 init("user_BuSWgZDrjMVm1FT62d5nN");
 
@@ -36,6 +36,8 @@ const Input = ({ id }) => {
 export default function ContactForm() {
   const form = useRef();
 
+  const [disabled, setDisabled] = useState();
+
   return (
     <Container style={{ height: "100%" }}>
       <Row>
@@ -46,7 +48,6 @@ export default function ContactForm() {
           <form ref={form}>
             <Row>
               <Col>
-                {" "}
                 <div>
                   <Label id="name">Name</Label>
                 </div>
@@ -81,12 +82,14 @@ export default function ContactForm() {
                 borderRadius: "20px",
                 color: "#fff",
                 fontFamily: "candal",
-                backgroundColor: "rgb(242, 104, 42)",
+                backgroundColor: disabled ? "grey" : "rgb(242, 104, 42)",
                 borderStyle: "none",
                 float: "right",
                 marginTop: "20px",
               }}
+              disabled={disabled}
               onClick={(e) => {
+                setDisabled(true);
                 e.preventDefault();
                 emailjs
                   .sendForm(
@@ -96,9 +99,23 @@ export default function ContactForm() {
                     "user_BuSWgZDrjMVm1FT62d5nN"
                   )
                   .then(() => {
+                    setDisabled(false);
+                    notification.open({
+                      message: "Success",
+                      description:
+                        "Your message has been sent, we'll get back to you soon!",
+                    });
                     console.log("Success");
                   })
-                  .catch((err) => console.log(err));
+                  .catch((err) => {
+                    notification.open({
+                      message: "Error",
+                      description:
+                        "There was a problem sending your message... we're sorry - please try again.",
+                    });
+                    setDisabled(false);
+                    console.log(err);
+                  });
               }}
             >
               Send
