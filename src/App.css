@@ -38,8 +38,13 @@
   }
 }
 
-h2 {
+.blog-title {
   color: #000;
   font-family: candal, sans-serif;
   font-size: 45px;
+}
+
+.blog-date {
+  color: #888;
+  font-size: 15px;
 }

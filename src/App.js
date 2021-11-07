@@ -1,11 +1,12 @@
 import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
+import Activities from "./Pages/Activities";
 import Blog from "./Pages/Blog";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import "./App.css";
 import "antd/dist/antd.css";
+import "./App.css";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/activities" element={<Activities />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
