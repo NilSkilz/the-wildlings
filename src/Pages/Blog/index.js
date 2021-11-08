@@ -51,20 +51,20 @@ export default function Home() {
               width: "100%",
               height: "100%",
               backgroundColor: "#efeeea",
-              marginTop: "-30px",
+              marginTop: "-50px",
             }}
           >
-            <div style={{ paddingTop: "60px" }}>
+            <div style={{ paddingTop: "80px" }}>
               <Container>
                 <Row>
-                  <Col xs={1} />
-                  <Col xs={5}>
+                  <Col xs={0} lg={1} />
+                  <Col xs={12} lg={5}>
                     {post.layout === "left" ? getPost(post) : getImage(post)}
                   </Col>
-                  <Col xs={5}>
+                  <Col xs={12} lg={5}>
                     {post.layout === "left" ? getImage(post) : getPost(post)}
                   </Col>
-                  <Col xs={1} />
+                  <Col xs={0} lg={1} />
                 </Row>
                 <Row>
                   <hr style={{ margin: "30px" }} />

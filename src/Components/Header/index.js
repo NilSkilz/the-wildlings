@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Social from "./Social";
 import Navigation from "./Navigation";
+import { Button } from "reactstrap";
 
-export default function Header() {
+export default function Header({ setSideMenuOpen }) {
   return (
     <div>
       <Container
@@ -14,25 +15,31 @@ export default function Header() {
         }}
       >
         <Row>
-          <Col xs={5}>
+          <Col className="d-none d-lg-block" xs={0} lg={5}>
             <Social></Social>
           </Col>
-          {/* <Col xs={2}>
-          <div>aimee@the-wildlings.co.uk</div>
-        </Col> */}
-          <Col xs={2}>
+          <Col className=" d-block d-lg-none" xs={1} lg={0}>
+            <Button onClick={() => setSideMenuOpen(true)}>Menu</Button>
+          </Col>
+          <Col xs={10} lg={2}>
             <img
               style={{ width: "130px", height: "130px", marginTop: "10px" }}
-              src="images/retina-logo.webp"
+              src="images/the-wildlings.png"
             />
           </Col>
-          <Col xs={5}>
+          <Col className="d-none d-lg-block" lg={5}>
             <Navigation></Navigation>
           </Col>
         </Row>
       </Container>
       <img
-        style={{ width: "100%", position: "relative", zIndex: 1 }}
+        style={{
+          width: "100%",
+          height: "83px",
+          position: "relative",
+          zIndex: 1,
+          objectFit: "cover",
+        }}
         src="images/bg-header-bottom-2.png"
       />
     </div>
