@@ -1,9 +1,16 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Social() {
   return (
     <div style={{ display: "flex", alignItems: "center", height: "100%" }}>
-      <div
+      <a
+        href="https://www.facebook.com/The-Wildlings-109226074901775"
         style={{
           width: "45px",
           height: "45px",
@@ -11,12 +18,14 @@ export default function Social() {
           backgroundColor: "#f2682a",
           color: "#fff",
           margin: "5px",
+          padding: "11px",
         }}
       >
-        F
-      </div>
+        <FontAwesomeIcon icon={faFacebookF} size="lg" />
+      </a>
 
-      <div
+      <a
+        href="https://www.facebook.com/The-Wildlings-109226074901775"
         style={{
           width: "45px",
           height: "45px",
@@ -24,12 +33,14 @@ export default function Social() {
           backgroundColor: "#5b9a42",
           color: "#fff",
           margin: "5px",
+          padding: "12px",
         }}
       >
-        T
-      </div>
+        <FontAwesomeIcon icon={faTwitter} size="lg" />
+      </a>
 
-      <div
+      <a
+        href="https://www.facebook.com/The-Wildlings-109226074901775"
         style={{
           width: "45px",
           height: "45px",
@@ -37,20 +48,23 @@ export default function Social() {
           backgroundColor: "#efc429",
           color: "#fff",
           margin: "5px",
+          padding: "11px",
         }}
       >
-        I
-      </div>
-      <div
+        <FontAwesomeIcon icon={faInstagram} size="lg" />
+      </a>
+      <a
+        href="mailto:aimee@the-wildlings.co.uk"
         style={{
           margin: "20px",
           fontWeight: "900",
           fontFamily: "candal",
           fontSize: "14px",
+          color: "black",
         }}
       >
         aimee@the-wildlings.co.uk
-      </div>
+      </a>
     </div>
   );
 }

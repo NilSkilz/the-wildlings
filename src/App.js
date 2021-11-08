@@ -4,8 +4,8 @@ import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Activities from "./Pages/Activities";
 import Blog from "./Pages/Blog";
+import SideMenu from "./Components/Offcanvas";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Offcanvas, OffcanvasHeader, OffcanvasBody, Button } from "reactstrap";
 
 import "antd/dist/antd.css";
 import "./App.css";
@@ -16,17 +16,10 @@ function App() {
     <div className="App" style={{ height: "100%" }}>
       <Router>
         <Header setSideMenuOpen={setSideMenuOpen} />
-        <Offcanvas
-          toggle={() => setSideMenuOpen(!sideMenuOpen)}
-          isOpen={sideMenuOpen}
-        >
-          <OffcanvasHeader toggle={() => setSideMenuOpen(!sideMenuOpen)}>
-            Offcanvas
-          </OffcanvasHeader>
-          <OffcanvasBody>
-            <strong>This is the Offcanvas body.</strong>
-          </OffcanvasBody>
-        </Offcanvas>
+        <SideMenu
+          sideMenuOpen={sideMenuOpen}
+          setSideMenuOpen={setSideMenuOpen}
+        />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/activities" element={<Activities />} />

@@ -3,6 +3,8 @@ import { Container, Row, Col } from "reactstrap";
 import Social from "./Social";
 import Navigation from "./Navigation";
 import { Button } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header({ setSideMenuOpen }) {
   return (
@@ -19,7 +21,16 @@ export default function Header({ setSideMenuOpen }) {
             <Social></Social>
           </Col>
           <Col className=" d-block d-lg-none" xs={1} lg={0}>
-            <Button onClick={() => setSideMenuOpen(true)}>Menu</Button>
+            <Button
+              style={{
+                backgroundColor: "transparent",
+                borderStyle: "none",
+                marginTop: "20px",
+              }}
+              onClick={() => setSideMenuOpen(true)}
+            >
+              <FontAwesomeIcon icon={faBars} size="lg" color="black" />
+            </Button>
           </Col>
           <Col xs={10} lg={2}>
             <img
