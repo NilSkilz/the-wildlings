@@ -59,7 +59,20 @@ export default function Post() {
           <h3 className="blog-date">
             {moment("02/12/2021", "DD/MM/YYYY").format("MMM Do, yyyy")}
           </h3>
-          <p style={{ textAlign: "left" }}>SHROOMS!</p>
+          <p style={{ textAlign: "left" }}>
+            We want to take some time to get to know the woods - and appreciate
+            it in all seasons, so we won't be starting work straight away.
+          </p>
+          <p style={{ textAlign: "left" }}>
+            One of the things we noticed imediately was the different mushroom
+            species that inhabited the woods. I took some pictures for this
+            blog, and also used a cool app to identify each species.
+          </p>
+          <p style={{ textAlign: "left" }}>
+            I need to do some more research to find out if any are edible, but
+            it would be so nice to be able to farm some shrooms for the dinner
+            plate one day!
+          </p>
         </Col>
         <Col xs={0} lg={1} />
       </Row>
