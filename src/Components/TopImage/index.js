@@ -6,7 +6,7 @@ export default function TopImage() {
       style={{
         height: "600px",
         width: "100%",
-        marginTop: "-30px",
+        marginTop: "-83px",
         zIndex: "0",
         position: "relative",
       }}

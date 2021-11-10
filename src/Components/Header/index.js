@@ -50,6 +50,7 @@ export default function Header({ setSideMenuOpen }) {
           position: "relative",
           zIndex: 1,
           objectFit: "cover",
+          // marginTop: '-83px'
         }}
         src="images/bg-header-bottom-2.png"
       />

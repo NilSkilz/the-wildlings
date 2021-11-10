@@ -12,16 +12,24 @@ export default function Home() {
       <img
         style={{
           width: "100%",
+          height: "99px",
           position: "relative",
           zIndex: 1,
-          marginTop: "-30px",
-          marginBottom: "60px",
+          objectFit: "cover",
+          marginTop: "-99px",
         }}
         src="images/bg-band-home-3.png"
       />
       <Introduction />
       <img
-        style={{ width: "100%", position: "relative", zIndex: 1 }}
+        style={{
+          width: "100%",
+          height: "83px",
+          position: "relative",
+          zIndex: 1,
+          objectFit: "cover",
+          marginTop: "0px",
+        }}
         src="images/bg-header-bottom-2.png"
       />
 
@@ -29,7 +37,7 @@ export default function Home() {
         style={{
           width: "100%",
           backgroundColor: "#efeeea",
-          marginTop: "-30px",
+          marginTop: "-83px",
         }}
       >
         <Activities />
@@ -43,8 +51,10 @@ export default function Home() {
         <img
           style={{
             width: "100%",
+            height: "141px",
             position: "relative",
             zIndex: 1,
+            objectFit: "cover",
           }}
           src="images/bg-gray-top-home-3.png"
         />
@@ -61,8 +71,10 @@ export default function Home() {
         <img
           style={{
             width: "100%",
+            height: "286px",
             position: "relative",
             zIndex: 1,
+            objectFit: "cover",
           }}
           src="images/bg-heading.png"
         />

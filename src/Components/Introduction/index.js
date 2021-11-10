@@ -7,7 +7,7 @@ export default function Introduction() {
     <Container>
       <Row>
         <Col xs={1}></Col>
-        <Col xs={5}>
+        <Col xs={12} md={5}>
           <Title>About our Forest School</Title>
           <SubTitle>We love it!</SubTitle>
           <p>
@@ -22,7 +22,7 @@ export default function Introduction() {
             making and promote positive wellbeing.
           </p>
         </Col>
-        <Col xs={5}>
+        <Col xs={12} md={5}>
           <img style={{ width: "100%" }} src="images/bg-14-copyright-2.jpeg" />
         </Col>
         <Col xs={1}></Col>
