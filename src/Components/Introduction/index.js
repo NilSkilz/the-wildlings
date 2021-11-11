@@ -23,7 +23,10 @@ export default function Introduction() {
           </p>
         </Col>
         <Col xs={12} md={5}>
-          <img style={{ width: "100%" }} src="images/bg-14-copyright-2.jpeg" />
+          <img
+            style={{ width: "80%", borderRadius: "20px" }}
+            src="images/michael-krahn-eGD69I3ODC4-unsplash.jpg"
+          />
         </Col>
         <Col xs={1}></Col>
       </Row>

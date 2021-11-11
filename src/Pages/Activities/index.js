@@ -1,9 +1,11 @@
 import React from "react";
-import Introduction from "../../Components/Introduction";
 import Activities from "../../Components/Activities";
-import TopImage from "../../Components/TopImage";
-import MiddleImage from "../../Components/MiddleImage";
-import Map from "../../Components/Map";
+import Campfire from "./Components/Campfire";
+import Bushcraft from "./Components/Bushcraft";
+import Arts from "./Components/Arts";
+import Den from "./Components/Den";
+import Assault from "./Components/Assault";
+import { Container } from "reactstrap";
 
 export default function Home() {
   return (
@@ -17,6 +19,36 @@ export default function Home() {
       >
         <Activities />
       </div>
+      <div
+        style={{
+          width: "100%",
+          marginTop: "-30px",
+        }}
+      >
+        <img
+          style={{
+            width: "100%",
+            height: "141px",
+            position: "relative",
+            zIndex: 1,
+            objectFit: "cover",
+          }}
+          src="images/bg-gray-top-home-3.png"
+        />
+      </div>
+      <Container>
+        <Campfire />
+        <hr />
+        <Den />
+        <hr />
+        <Bushcraft />
+        <hr />
+        <Arts />
+
+        <hr />
+        <Assault />
+        <hr />
+      </Container>
     </>
   );
 }

@@ -45,30 +45,12 @@ export default function Activities() {
                   it at any time of year, but autumn is an ideal time to try it
                   as there are lots of fallen leaves and branches to use.{" "}
                 </p>
-                <p>
-                  Dens make perfect birdwatching hides, as well as shelters and
-                  basecamps for woodland walks. Building a den is also great fun
-                  for the whole family and a wonderful way to spend time
-                  together, so head outdoors and try out our top tips.
-                </p>
               </Activity>
             </Col>
             <Col xs={12} sm={4} lg={2}>
               <Activity
                 title="Bushcraft"
                 image="images/axe.png"
-                description="For kids or adults!"
-              >
-                <p>
-                  Bushcraft courses cover survival training, wilderness and
-                  foraging skills.
-                </p>
-              </Activity>
-            </Col>
-            <Col xs={12} sm={4} lg={2}>
-              <Activity
-                title="Archery"
-                image="images/archery.png"
                 description="For kids or adults!"
               >
                 <p>
@@ -97,6 +79,18 @@ export default function Activities() {
                 description="For kids or adults!"
               >
                 <p>Slack lines, zip wires, barefoot walks, mud slides etc</p>
+              </Activity>
+            </Col>
+            <Col xs={12} sm={4} lg={2}>
+              <Activity
+                title="Birthday Parties"
+                image="images/birthday-cake.png"
+                description="For kids or adults!"
+              >
+                <p>
+                  Bushcraft courses cover survival training, wilderness and
+                  foraging skills.
+                </p>
               </Activity>
             </Col>
           </Row>

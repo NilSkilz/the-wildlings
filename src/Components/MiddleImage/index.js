@@ -36,7 +36,7 @@ export default function MiddleImage() {
           We can't wait to see you!
         </div>
         <a
-          href=""
+          href="/contact"
           style={{
             fontFamily: "Permanent Marker",
             color: "rgb(241, 198, 44)",
