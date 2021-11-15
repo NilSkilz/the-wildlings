@@ -25,7 +25,7 @@ export default function Bushcraft() {
       <Col xs={12} md={5}>
         <img
           style={{ width: "80%", borderRadius: "20px" }}
-          src="images/gemma-evans-alVcL70NHUU-unsplash.jpg"
+          src="/images/gemma-evans-alVcL70NHUU-unsplash.jpg"
         />
       </Col>
       <Col xs={1}></Col>

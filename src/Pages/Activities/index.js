@@ -33,7 +33,7 @@ export default function Home() {
             zIndex: 1,
             objectFit: "cover",
           }}
-          src="images/bg-gray-top-home-3.png"
+          src="/images/bg-gray-top-home-3.png"
         />
       </div>
       <Container>

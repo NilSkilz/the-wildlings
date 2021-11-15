@@ -62,7 +62,7 @@ export default function Map() {
       />
       <img
         style={{ width: "20px", position: "relative", zIndex: 1 }}
-        src="images/map.png"
+        src="/images/map.png"
       />
     </div>
   );

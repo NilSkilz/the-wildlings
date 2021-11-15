@@ -6,7 +6,8 @@ export default function Navigation() {
     <div style={{ display: "flex", alignItems: "center", height: "100%" }}>
       <NavigationButton name="HOME" link="/" />
       <NavigationButton name="ACTIVITIES" link="/activities" />
-      <NavigationButton name="ABOUT" link="/blog" />
+      <NavigationButton name="ABOUT" link="/about" />
+      <NavigationButton name="BLOG" link="/blog" />
       <NavigationButton name="CONTACT" link="/contact" />
     </div>
   );

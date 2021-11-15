@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Activities from "./Pages/Activities";
 import Blog from "./Pages/Blog";
+import About from "./Pages/About";
 import SideMenu from "./Components/Offcanvas";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/activities" element={<Activities />} />
+          <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

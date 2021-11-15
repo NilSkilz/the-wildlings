@@ -30,7 +30,7 @@ export default function Home() {
             position: "relative",
             zIndex: 1,
           }}
-          src="images/bg-gray-top-home-3.png"
+          src="/images/bg-gray-top-home-3.png"
         />
       </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
             position: "relative",
             zIndex: 1,
           }}
-          src="images/bg-heading.png"
+          src="/images/bg-heading.png"
         />
       </div>
       <Map /> */}

@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "reactstrap";
 import Posts from "./Posts";
 
-export default function Home() {
+export default function Blog() {
   return (
     <div
       style={{

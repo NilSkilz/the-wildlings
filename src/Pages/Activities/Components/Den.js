@@ -10,7 +10,7 @@ export default function Den() {
       <Col xs={12} md={5}>
         <img
           style={{ width: "80%", borderRadius: "20px" }}
-          src="images/siora-photography-K8Uq5ImGPPA-unsplash.jpg"
+          src="/images/siora-photography-K8Uq5ImGPPA-unsplash.jpg"
         />
       </Col>
       <Col xs={12} md={5}>

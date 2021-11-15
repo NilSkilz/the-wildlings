@@ -35,7 +35,7 @@ export default function Header({ setSideMenuOpen }) {
           <Col xs={10} lg={2}>
             <img
               style={{ width: "130px", height: "130px", marginTop: "10px" }}
-              src="images/the-wildlings.png"
+              src="/images/the-wildlings.png"
             />
           </Col>
           <Col className="d-none d-lg-block" lg={5}>
@@ -52,7 +52,7 @@ export default function Header({ setSideMenuOpen }) {
           objectFit: "cover",
           // marginTop: '-83px'
         }}
-        src="images/bg-header-bottom-2.png"
+        src="/images/bg-header-bottom-2.png"
       />
     </div>
   );

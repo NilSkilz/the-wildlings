@@ -25,7 +25,7 @@ export default function Introduction() {
         <Col xs={12} md={5}>
           <img
             style={{ width: "80%", borderRadius: "20px" }}
-            src="images/michael-krahn-eGD69I3ODC4-unsplash.jpg"
+            src="/images/michael-krahn-eGD69I3ODC4-unsplash.jpg"
           />
         </Col>
         <Col xs={1}></Col>

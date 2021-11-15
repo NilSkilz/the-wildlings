@@ -10,7 +10,7 @@ export default function Arts() {
       <Col xs={12} md={5}>
         <img
           style={{ width: "80%", borderRadius: "20px" }}
-          src="images/alex-jones-Tq4YjCa2BSc-unsplash.jpg"
+          src="/images/alex-jones-Tq4YjCa2BSc-unsplash.jpg"
         />
       </Col>
       <Col xs={12} md={5}>

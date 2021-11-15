@@ -18,7 +18,7 @@ export default function Home() {
           objectFit: "cover",
           marginTop: "-99px",
         }}
-        src="images/bg-band-home-3.png"
+        src="/images/bg-band-home-3.png"
       />
       <Introduction />
       <img
@@ -30,7 +30,7 @@ export default function Home() {
           objectFit: "cover",
           marginTop: "0px",
         }}
-        src="images/bg-header-bottom-2.png"
+        src="/images/bg-header-bottom-2.png"
       />
 
       <div
@@ -56,7 +56,7 @@ export default function Home() {
             zIndex: 1,
             objectFit: "cover",
           }}
-          src="images/bg-gray-top-home-3.png"
+          src="/images/bg-gray-top-home-3.png"
         />
       </div>
 
@@ -76,7 +76,7 @@ export default function Home() {
             zIndex: 1,
             objectFit: "cover",
           }}
-          src="images/bg-heading.png"
+          src="/images/bg-heading.png"
         />
       </div>
       <Map />

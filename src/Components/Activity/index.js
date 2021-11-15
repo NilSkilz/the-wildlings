@@ -3,7 +3,7 @@ export default function Activity({ title, image, children }) {
     <div
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
-      <img src="images/bg-circle-white.webp" style={{ width: "150px" }}></img>
+      <img src="/images/bg-circle-white.webp" style={{ width: "150px" }}></img>
       <img
         src={image}
         style={{

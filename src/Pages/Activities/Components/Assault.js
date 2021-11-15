@@ -15,7 +15,7 @@ export default function Assault() {
       <Col xs={12} md={5}>
         <img
           style={{ width: "80%", borderRadius: "20px" }}
-          src="images/henry-perks-2pvagQuV2bM-unsplash.jpg"
+          src="/images/henry-perks-2pvagQuV2bM-unsplash.jpg"
         />
       </Col>
       <Col xs={1}></Col>

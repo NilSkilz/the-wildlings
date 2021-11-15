@@ -125,7 +125,7 @@ export default function ContactForm() {
         {/* <Col xs={5}> */}
         {/* <img
             style={{ width: "100%", marginTop: "150px" }}
-            src="images/bg-14-copyright-2.jpeg"
+            src="/images/bg-14-copyright-2.jpeg"
           /> */}
         {/* </Col> */}
         <Col xs={1}></Col>

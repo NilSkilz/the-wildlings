@@ -28,7 +28,7 @@ export default function Campfire() {
       <Col xs={12} md={5}>
         <img
           style={{ width: "80%", borderRadius: "20px" }}
-          src="images/leon-contreras-YndHL7gQIJE-unsplash.jpg"
+          src="/images/leon-contreras-YndHL7gQIJE-unsplash.jpg"
         />
       </Col>
       <Col xs={1}></Col>
