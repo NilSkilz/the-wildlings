@@ -21,11 +21,14 @@ export default function Post() {
                 <Col xs={12}>
                   <img
                     style={{
+                      marginTop: "120px",
                       width: "100%",
                       borderRadius: "10px",
                       margin: "10px",
+                      height: "40%",
+                      objectFit: "cover",
                     }}
-                    src="/images/about/plants/drew-dempsey-Kgqjr2CbzuU-unsplash.jpg"
+                    src="/images/IMG_1308.jpg"
                   />
                 </Col>
               </Row>
@@ -33,6 +36,14 @@ export default function Post() {
           </div>
         </Col>
         <Col xs={12} lg={5}>
+          <h2 className="blog-title">Fungi</h2>
+          <h3 className="blog-date">
+            {moment("02/12/2021", "DD/MM/YYYY").format("MMM Do, yyyy")}
+          </h3>
+          <p>
+            We have no real experience in identifying fungus, so it was fun to
+            explore our woodland and identify a few of the species living there
+          </p>
           <div
             style={{
               textAlign: "left",
@@ -41,28 +52,23 @@ export default function Post() {
               fontSize: "25px",
             }}
           >
-            IVY
+            HYPOXYLACEAE
           </div>
           <div style={{ textAlign: "left" }}>
             <p style={{ fontSize: "16px", color: "#666" }}>
-              "Ivy is an evergreen, woody climber which can grow to a height of
-              30m. It has two different forms – juvenile and mature. It has
-              climbing stems with specialised hairs which help it stick to
-              surfaces as it climbs. Mature forms can be self-supporting."
+              "Hypoxylon is a genus of ascomycetes commonly found on dead wood,
+              and usually one of the earliest species to colonise dead wood. A
+              common European species is Hypoxylon fragiforme which is
+              particular common on dead trunks of beech.."
             </p>
             <p style={{ textAlign: "right", fontSize: "16px", color: "#666" }}>
-              - Woodland Trust
+              - Wikipedia
             </p>
             <p>
-              There are a few trees in Wildling Woods that have been wrapped in
-              ivy. It does not harm the trees, but instead supports a variety of
-              wildlife.
+              We managed to identify some Hypoxylon growing on a dead tree in
+              our forest. They took the form of a fairly solid dark-brown/black
+              lump, and were identified using an app called "PictureThis"
             </p>
-            <ul>
-              <li>Dark green, glossy leaves</li>
-              <li>Often climbs up trees and clings to their limbs</li>
-              <li>Can creep along the ground</li>
-            </ul>
           </div>
         </Col>
         <Col xs={0} lg={1} />

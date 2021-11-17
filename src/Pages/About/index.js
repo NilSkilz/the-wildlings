@@ -3,6 +3,7 @@ import { Container } from "reactstrap";
 import Fungus from "./Sections/Fungus";
 import Trees from "./Sections/Trees";
 import Plants from "./Sections/Plants";
+import Birds from "./Sections/Birds";
 
 export default function About() {
   return (
@@ -70,7 +71,10 @@ export default function About() {
         <Trees />
         <hr />
         <Plants />
-        {/* <Fungus /> */}
+        <hr />
+        <Birds />
+        <hr />
+        <Fungus />
       </Container>
     </div>
   );

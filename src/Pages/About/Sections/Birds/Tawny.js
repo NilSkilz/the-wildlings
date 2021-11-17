@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import moment from "moment";
 
 export default function Post() {
   return (
@@ -17,26 +16,17 @@ export default function Post() {
               fontSize: "25px",
             }}
           >
-            BRACKEN
+            TAWNY OWL
           </div>
           <div style={{ textAlign: "left" }}>
-            <p style={{ fontSize: "16px", color: "#666" }}>
-              "Bracken is one of the most widely distributed of all vascular
-              plants. It can be found from sea level to more than 3,000 metres
-              if the temperatures allow it, on well-drained soils but never on
-              marshes or boggy ground."
-            </p>
-            <p style={{ textAlign: "right", fontSize: "16px", color: "#666" }}>
-              - Woodland Trust
+            <p>
+              It's unusual to see owls in the daytime, but we were lucky enough
+              to spot a Tawny Owl while out on a walk in the woods. They're a
+              medium sized owl, mostly brown with a paler underbelly.
             </p>
             <p>
-              Bracken is very common in the English countryside. It's easily
-              recognisable by it's large, fern-like leaves. It can grow to 5ft
-              in height and can spread rapidly if left unchecked.
-            </p>
-            <p>
-              Bracket provides a lovely green carpet in summer and spring, which
-              turns to a red-brown and dies back over autumn.
+              If you see an owl in an English woodland, it's most likely a Tawny
+              owl.
             </p>
           </div>
         </Col>
@@ -57,7 +47,7 @@ export default function Post() {
                       borderRadius: "10px",
                       margin: "10px",
                     }}
-                    src="/images/about/plants/DqfADXZYN3EZ7qIWr5c2mJtR0jzZr5ZuxXII0opd.jpeg"
+                    src="/images/about/birds/tawny-owl-howard-stockdale-006556.jpeg"
                   />
                 </Col>
               </Row>

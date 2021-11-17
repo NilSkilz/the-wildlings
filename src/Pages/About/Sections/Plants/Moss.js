@@ -25,7 +25,7 @@ export default function Post() {
                       borderRadius: "10px",
                       margin: "10px",
                     }}
-                    src="/images/about/plants/drew-dempsey-Kgqjr2CbzuU-unsplash.jpg"
+                    src="/images/about/plants/p18ka272m1q7s1j15ce1kst1cvbc.jpeg"
                   />
                 </Col>
               </Row>
@@ -41,28 +41,28 @@ export default function Post() {
               fontSize: "25px",
             }}
           >
-            IVY
+            SWAN'S-NECK THYME MOSS
           </div>
           <div style={{ textAlign: "left" }}>
             <p style={{ fontSize: "16px", color: "#666" }}>
-              "Ivy is an evergreen, woody climber which can grow to a height of
-              30m. It has two different forms – juvenile and mature. It has
-              climbing stems with specialised hairs which help it stick to
-              surfaces as it climbs. Mature forms can be self-supporting."
+              "Elegant and damp. Swan's-neck thyme-moss is one of our most
+              common mosses. Lush green with bright green new growth in the
+              spring."
             </p>
             <p style={{ textAlign: "right", fontSize: "16px", color: "#666" }}>
               - Woodland Trust
             </p>
             <p>
-              There are a few trees in Wildling Woods that have been wrapped in
-              ivy. It does not harm the trees, but instead supports a variety of
-              wildlife.
+              We think we've identified some Swan's Neck moss in our woodlands.
+              Moss, like Fungus has thousands of sub-species and so identifying
+              specific types can be tough.
             </p>
-            <ul>
-              <li>Dark green, glossy leaves</li>
-              <li>Often climbs up trees and clings to their limbs</li>
-              <li>Can creep along the ground</li>
-            </ul>
+            <p>
+              Swan's Neck moss has fern like, soft leaves. Moss likes damp
+              conditions, and so tends to grow on the North side of trees in the
+              UK (as there's less sunlight). As such, it can be used as a rough
+              guide for navigation.
+            </p>
           </div>
         </Col>
         <Col xs={0} lg={1} />

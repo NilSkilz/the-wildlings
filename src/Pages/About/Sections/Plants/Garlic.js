@@ -7,7 +7,6 @@ export default function Post() {
     <>
       <Row>
         <Col xs={0} lg={1} />
-
         <Col xs={12} lg={5}>
           <div
             style={{
@@ -17,26 +16,21 @@ export default function Post() {
               fontSize: "25px",
             }}
           >
-            BRACKEN
+            WILD GARLIC
           </div>
           <div style={{ textAlign: "left" }}>
             <p style={{ fontSize: "16px", color: "#666" }}>
-              "Bracken is one of the most widely distributed of all vascular
-              plants. It can be found from sea level to more than 3,000 metres
-              if the temperatures allow it, on well-drained soils but never on
-              marshes or boggy ground."
+              "A delicious sign of the old, wild garlic is also known as
+              ramsons. Look for them in shady woods where they coat the woodland
+              floor in spring."
             </p>
             <p style={{ textAlign: "right", fontSize: "16px", color: "#666" }}>
               - Woodland Trust
             </p>
             <p>
-              Bracken is very common in the English countryside. It's easily
-              recognisable by it's large, fern-like leaves. It can grow to 5ft
-              in height and can spread rapidly if left unchecked.
-            </p>
-            <p>
-              Bracket provides a lovely green carpet in summer and spring, which
-              turns to a red-brown and dies back over autumn.
+              Wild garlic is a small white flowering plant that is easily
+              identified becuase it smells (and tastes) like garlic! The entire
+              plant is edible and is often unsed as a foreged ingredient
             </p>
           </div>
         </Col>
@@ -57,13 +51,14 @@ export default function Post() {
                       borderRadius: "10px",
                       margin: "10px",
                     }}
-                    src="/images/about/plants/DqfADXZYN3EZ7qIWr5c2mJtR0jzZr5ZuxXII0opd.jpeg"
+                    src="/images/about/plants/wild-garlic.jpeg"
                   />
                 </Col>
               </Row>
             </div>
           </div>
         </Col>
+
         <Col xs={0} lg={1} />
       </Row>
     </>

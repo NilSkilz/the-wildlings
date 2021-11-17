@@ -7,6 +7,7 @@ export default function Post() {
     <>
       <Row>
         <Col xs={0} lg={1} />
+
         <Col xs={12} lg={5}>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <div
@@ -24,14 +25,22 @@ export default function Post() {
                       borderRadius: "10px",
                       margin: "10px",
                     }}
-                    src="/images/about/trees/sycamore-seeds-naturepl-01570678-sylvain-cordier.jpeg"
+                    src="/images/about/birds/105002532-ccfa100e-808c-4ed9-9180-28245eb0a1ec.jpeg"
                   />
                 </Col>
               </Row>
             </div>
           </div>
-        </Col>{" "}
+        </Col>
         <Col xs={12} lg={5}>
+          <h2 className="blog-title">Wildlife</h2>
+          <h3 className="blog-date">
+            {moment("02/12/2021", "DD/MM/YYYY").format("MMM Do, yyyy")}
+          </h3>
+          <div>
+            My husband Rob has a keen interest in Birds of Prey, and was
+            delighted to see a few species that visit our woodland
+          </div>
           <div
             style={{
               textAlign: "left",
@@ -40,28 +49,18 @@ export default function Post() {
               fontSize: "25px",
             }}
           >
-            SYCAMORE
+            Buzzard
           </div>
           <div style={{ textAlign: "left" }}>
-            <p style={{ fontSize: "16px", color: "#666" }}>
-              "These broadleaf trees can grow to 35m and live for 400 years. The
-              bark is dark pink-grey, and smooth when young, but becomes cracked
-              and develops small plates with age. Twigs are pink-brown and
-              hairless."
-            </p>
-            <p style={{ textAlign: "right", fontSize: "16px", color: "#666" }}>
-              - Woodland Trust
+            <p>
+              The European Buzzard is really common across Devon and Cornwall
+              and can often be spotted soaring over fields, meadows and
+              woodlands, or perched atop telegraph poles
             </p>
             <p>
-              The beech trees in Wildling Woods are easily spotted in autumn, as
-              their leaves turn a gorgeous bright orange color.
+              They have broad wings and short tails, and are a light brown color
+              with darker tips on thier wings.
             </p>
-            <p>Beech can be identified by:</p>
-            <ul>
-              <li>Oval leaves that finish in a point</li>
-              <li>Wavy edged leaves</li>
-              <li>Grey bark, often with horizontal etchings</li>
-            </ul>
           </div>
         </Col>
         <Col xs={0} lg={1} />

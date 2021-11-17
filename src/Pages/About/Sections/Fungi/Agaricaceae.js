@@ -17,26 +17,22 @@ export default function Post() {
               fontSize: "25px",
             }}
           >
-            BRACKEN
+            AGARICACEAE
           </div>
           <div style={{ textAlign: "left" }}>
             <p style={{ fontSize: "16px", color: "#666" }}>
-              "Bracken is one of the most widely distributed of all vascular
-              plants. It can be found from sea level to more than 3,000 metres
-              if the temperatures allow it, on well-drained soils but never on
-              marshes or boggy ground."
+              "The best known family, Agaricaceae, contains fungi with mushroom
+              fruiting bodies as well as many of the puffballs formerly placed
+              in the family Lycoperdaceae. The taxonomy of the group has
+              undergone heavy revision and contains about 85 genera and 1,340
+              species."
             </p>
             <p style={{ textAlign: "right", fontSize: "16px", color: "#666" }}>
-              - Woodland Trust
+              - Britanica
             </p>
             <p>
-              Bracken is very common in the English countryside. It's easily
-              recognisable by it's large, fern-like leaves. It can grow to 5ft
-              in height and can spread rapidly if left unchecked.
-            </p>
-            <p>
-              Bracket provides a lovely green carpet in summer and spring, which
-              turns to a red-brown and dies back over autumn.
+              These mushrooms look very similar to the white mushrooms you buy
+              at the supermarket, and I believe these are in the same genus.
             </p>
           </div>
         </Col>
@@ -45,7 +41,7 @@ export default function Post() {
             <div
               style={{
                 width: "80%",
-                marginTop: "40px",
+
                 borderRadius: "10px",
               }}
             >
@@ -56,8 +52,10 @@ export default function Post() {
                       width: "100%",
                       borderRadius: "10px",
                       margin: "10px",
+                      height: "40%",
+                      objectFit: "cover",
                     }}
-                    src="/images/about/plants/DqfADXZYN3EZ7qIWr5c2mJtR0jzZr5ZuxXII0opd.jpeg"
+                    src="/images/IMG_1323.jpg"
                   />
                 </Col>
               </Row>

@@ -48,3 +48,7 @@
   color: #888;
   font-size: 15px;
 }
+
+.fade {
+  opacity: 100 !important;
+}
