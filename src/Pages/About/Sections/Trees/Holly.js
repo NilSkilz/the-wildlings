@@ -20,23 +20,19 @@ export default function Post() {
             HOLLY
           </div>
           <div style={{ textAlign: "left" }}>
-            {/* <p style={{ fontSize: "16px", color: "#666" }}>
-              "Mature trees can grow up to 15m and live for 300 years. The bark
-              is smooth and thin with lots of small, brown 'warts', and the
-              stems are dark brown. "
+            <p style={{ fontSize: "16px", color: "#666" }}>
+              "Festive, neat and prickly. Holly is a well-loved shrub that
+              shelters birds and gives hedgehogs a cosy place to hibernate."
             </p>
             <p style={{ textAlign: "right", fontSize: "16px", color: "#666" }}>
               - Woodland Trust
             </p>
             <p>
-              Sycamore has really distinctive seeds, that float to the groups
-              like helicopters. This is beautiful to watch and they're fun to
-              collect and fly!
+              Holly is famous for it's festive appearance. It's evergreen leaves
+              and red berries add some colour to the woodlands in winter. It's
+              glossy, dark green leaves usually carry a spiked edge, however
+              they can be found with rounded leaves too.
             </p>
-            <ul>
-              <li>Helicopter fruit known as Samaras</li>
-              <li>Large leaves with an almost "maple" shape</li>
-            </ul> */}
           </div>
         </Col>
         <Col xs={12} lg={5}>
