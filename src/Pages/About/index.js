@@ -35,7 +35,7 @@ export default function About() {
           backgroundColor: "#efeeea",
         }}
       >
-        Getting to know the woods
+        Getting to know the woods!
       </div>
       <div style={{ backgroundColor: "#efeeea", marginBottom: "-14px" }}>
         <p>
@@ -50,9 +50,9 @@ export default function About() {
             "Seek" or "PictureThis"
           </p>
           <p>
-            If you find a creature of an animal, please remember not to take it
-            away from its habiat. Be quiet and respectful and you might be
-            treated to a performance
+            If you find a creature or an animal, please remember not to take it
+            away from its habitat. Be quiet and respectful and you might be
+            treated to a performance.
           </p>
         </p>
       </div>

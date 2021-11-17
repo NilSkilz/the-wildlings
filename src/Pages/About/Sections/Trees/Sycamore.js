@@ -44,23 +44,21 @@ export default function Post() {
           </div>
           <div style={{ textAlign: "left" }}>
             <p style={{ fontSize: "16px", color: "#666" }}>
-              "These broadleaf trees can grow to 35m and live for 400 years. The
-              bark is dark pink-grey, and smooth when young, but becomes cracked
-              and develops small plates with age. Twigs are pink-brown and
-              hairless."
+              "Mature trees can grow up to 15m and live for 300 years. The bark
+              is smooth and thin with lots of small, brown 'warts', and the
+              stems are dark brown. "
             </p>
             <p style={{ textAlign: "right", fontSize: "16px", color: "#666" }}>
               - Woodland Trust
             </p>
             <p>
-              The beech trees in Wildling Woods are easily spotted in autumn, as
-              their leaves turn a gorgeous bright orange color.
+              Sycamore has really distinctive seeds, that float to the groups
+              like helicopters. This is beautiful to watch and they're fun to
+              collect and fly!
             </p>
-            <p>Beech can be identified by:</p>
             <ul>
-              <li>Oval leaves that finish in a point</li>
-              <li>Wavy edged leaves</li>
-              <li>Grey bark, often with horizontal etchings</li>
+              <li>Helicopter fruit known as Samaras</li>
+              <li>Large leaves with an almost "maple" shape</li>
             </ul>
           </div>
         </Col>

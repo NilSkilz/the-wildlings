@@ -20,7 +20,7 @@ export default function Post() {
             HOLLY
           </div>
           <div style={{ textAlign: "left" }}>
-            <p style={{ fontSize: "16px", color: "#666" }}>
+            {/* <p style={{ fontSize: "16px", color: "#666" }}>
               "Mature trees can grow up to 15m and live for 300 years. The bark
               is smooth and thin with lots of small, brown 'warts', and the
               stems are dark brown. "
@@ -36,7 +36,7 @@ export default function Post() {
             <ul>
               <li>Helicopter fruit known as Samaras</li>
               <li>Large leaves with an almost "maple" shape</li>
-            </ul>
+            </ul> */}
           </div>
         </Col>
         <Col xs={12} lg={5}>

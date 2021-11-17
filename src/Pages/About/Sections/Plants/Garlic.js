@@ -30,7 +30,7 @@ export default function Post() {
             <p>
               Wild garlic is a small white flowering plant that is easily
               identified becuase it smells (and tastes) like garlic! The entire
-              plant is edible and is often unsed as a foreged ingredient
+              plant is edible and is often used as a foraged ingredient.
             </p>
           </div>
         </Col>

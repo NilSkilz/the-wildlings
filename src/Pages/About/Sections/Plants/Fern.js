@@ -35,7 +35,7 @@ export default function Post() {
               in height and can spread rapidly if left unchecked.
             </p>
             <p>
-              Bracket provides a lovely green carpet in summer and spring, which
+              Bracken provides a lovely green carpet in summer and spring, which
               turns to a red-brown and dies back over autumn.
             </p>
           </div>

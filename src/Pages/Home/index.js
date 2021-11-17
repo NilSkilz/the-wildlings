@@ -4,10 +4,12 @@ import Activities from "../../Components/Activities";
 import TopImage from "../../Components/TopImage";
 import MiddleImage from "../../Components/MiddleImage";
 import Map from "../../Components/Map";
+import WelcomeModal from "../../Components/WelcomeModal";
 
 export default function Home() {
   return (
     <>
+      <WelcomeModal />
       <TopImage />
       <img
         style={{
