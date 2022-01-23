@@ -14,7 +14,7 @@ export default function Blog() {
     >
       {/* <Container> */}
         {Posts.map((Post, index) => {
-          if (!index)
+          if (!index || index%2 === 0)
             return (
               <div style={{ paddingTop: "50px", backgroundColor: "#efeeea", }}>
                 <Post />

@@ -59,7 +59,7 @@ export default function Post() {
         <Col xs={0} lg={1} />
       </Row>
       <Row>
-        <hr style={{ margin: "30px" }} />
+        {/* <hr style={{ margin: "30px" }} /> */}
       </Row>
     </>
   );

@@ -71,7 +71,7 @@ export default function Post() {
         <Col xs={0} lg={1} />
       </Row>
       <Row style={{marginTop: '40px'}}>
-        <hr style={{ margin: "0px" }} />
+        {/* <hr style={{ margin: "0px" }} /> */}
       </Row>
     </>
   );
