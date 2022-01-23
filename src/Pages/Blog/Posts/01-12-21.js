@@ -5,9 +5,9 @@ import moment from "moment";
 export default function Post() {
   return (
     <>
-      <Row>
-        <Col xs={0} lg={1} />
-        <Col xs={12} lg={5}>
+      <Row >
+        <Col xs={1} lg={1} />
+        <Col xs={10} lg={5}>
           <h2 className="blog-title">We bought a wood!</h2>
           <h3 className="blog-date">
             {moment("01/12/2021", "DD/MM/YYYY").format("MMM Do, yyyy")}
@@ -70,8 +70,8 @@ export default function Post() {
         </Col>
         <Col xs={0} lg={1} />
       </Row>
-      <Row>
-        <hr style={{ margin: "30px" }} />
+      <Row style={{marginTop: '40px'}}>
+        <hr style={{ margin: "0px" }} />
       </Row>
     </>
   );

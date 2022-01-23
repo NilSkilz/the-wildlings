@@ -12,17 +12,17 @@ export default function Blog() {
         marginTop: "-50px",
       }}
     >
-      <Container>
+      {/* <Container> */}
         {Posts.map((Post, index) => {
           if (!index)
             return (
-              <div style={{ paddingTop: "50px" }}>
+              <div style={{ paddingTop: "50px", backgroundColor: "#efeeea", }}>
                 <Post />
               </div>
             );
           return <Post />;
         })}
-      </Container>
+      {/* </Container> */}
     </div>
   );
 }

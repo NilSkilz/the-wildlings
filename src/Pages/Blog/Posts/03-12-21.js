@@ -8,7 +8,7 @@ export default function Post() {
 
   return (
     <>
-      <Row>
+      <Row style={{ marginTop: '60px'}}>
         <Col xs={0} lg={1} />
 
         <Col xs={12} lg={5}>
@@ -22,14 +22,14 @@ export default function Post() {
             >
               <Row>
                 <Col xs={12}>
-                  <ImgsViewer
+                  {/* <ImgsViewer
                     imgs={[{ src: "/images/1280px-Leaf_morphology.svg.png" }]}
                     // currImg={currImg}
                     isOpen={isOpen}
                     // onClickPrev={this.gotoPrevious}
                     // onClickNext={this.gotoNext}
                     onClose={() => setIsOpen(false)}
-                  />
+                  /> */}
                   <img
                     style={{
                       width: "100%",

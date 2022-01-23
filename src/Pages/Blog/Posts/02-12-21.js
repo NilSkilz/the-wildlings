@@ -5,7 +5,7 @@ import moment from "moment";
 export default function Post() {
   return (
     <>
-      <Row>
+      <Row style={{ marginTop: '30px'}}>
         <Col xs={0} lg={1} />
 
         <Col xs={12} lg={5}>

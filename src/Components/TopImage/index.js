@@ -27,7 +27,7 @@ export default function TopImage() {
           style={{
             fontFamily: "candal",
             color: "#fff",
-            fontSize: "95px",
+            fontSize: "80px",
             fontWeight: "900",
             letterSpacing: "-3px",
             lineHeight: "95px",

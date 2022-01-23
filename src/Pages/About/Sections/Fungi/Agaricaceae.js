@@ -34,14 +34,7 @@ export default function Post() {
           </div>
         </Col>
         <Col xs={12} lg={5}>
-          <h2 className="blog-title">Fungi</h2>
-          <h3 className="blog-date">
-            {moment("02/12/2021", "DD/MM/YYYY").format("MMM Do, yyyy")}
-          </h3>
-          <p>
-            We have no real experience in identifying fungus, so it was fun to
-            explore our woodland and identify a few of the species living there
-          </p>
+
           <div
             style={{
               textAlign: "left",
